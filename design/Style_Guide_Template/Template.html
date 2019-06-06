@@ -310,39 +310,59 @@
 		 <p> Please click the link:<a href="https://xd.adobe.com/view/8fc71415-a541-4d8a-7962-98e326e394be-f9f6/?fullscreen" target="_blank">My mobile and website wireframes</a></p>
 	</section>
 	  
+	<section>
+        <h2>Grid structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid_container</p>
+        <p>.grid_container > div</p>
+        <p>.item1</p>
+        <p>.item2</p>
+        <p>.item3</p>
+        <p>.item4</p>
+
+        <h3>Sample code:</h3>
+        <code>
+        &lt;div class="grid-container"&gt;<br>
+          &lt;div class="item1">header+navigation&lt;/div&gt;<br>
+          &lt;div class="item2">Menu&lt;/div&gt;<br>
+          &lt;div class="item3">Main&lt;/&lt;div>&gt; <br>
+          &lt;div class="item4">Footer&lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+        </code>
+       
+
+        <h3>Rendered element:</h3>
+        <div class="grid-container">
+          <div class="item1">header+navigation</div>
+          <div class="item2">Menu</div>
+          <div class="item3">Main</div>  
+          <div class="item4">Footer</div>
+        </div>
+      </section>  
+
 	  <section>
-	   <h2>Website grid structure</h2>
-	   <h3>Rendered result:</h3>
-	   <!--structrue code-->
-	    <div id="structure-sample">
-	    	<header><img src="images/mylogo.png" alt="natureskin" width="150"></header>
-	    	<!-- Navigation Bar -->
-			<nav>
-				<div class="flex-container">
-				<div class="navi"><a href="#Shop-All">Shop All</a></div>
-				<div class="navi"><a href="#New">New</a></div>
-				<div class="navi"><a href="#Sale">Sale</a></div>
-				<div class="navi"><a href="#About-Us">About Us</a></div>
-				<div class="navi"><a href="#Contact-Us">Contact Us</a></div>
-			</div>
+        <h2>Color swatches</h2>
 
-			</nav>
-			<!-- The flexible grid (content) -->
-			
-				<div class="container">
-				  <img src="images/nature.jpeg" alt="" style="width:100%;">
-				  <button class="btn">Shop Now</button>
-				  <div class="centered">Special Promotion</div>
-				  </div>
-			<!-- <img src="nature.jpeg" alt="" width="100%" height="80%">-->
+        <h3>CSS selector:</h3>
+        <p>.color</p>
 
-		
-	<footer>
-		<p>Footer</p>
-	</footer>
+        <h3>Sample code:</h3>
+        <code>
+           &lt;div class="color" style="background:#95aa6a"&gt; &lt;/div&gt;<br>
+           &lt;div class="color" style="background:#b8c69c"&gt; &lt;/div&gt;<br>
+           &lt;div class="color" style="background:#d1c8b5"&gt; &lt;/div&gt;<br>
+           &lt;div class="color" style="background:#e6e3da"&gt; &lt;/div&gt;<br>
+        </code>
+          
+        <h3>Rendered element:</h3>
+          <div class="color" style="background:#95aa6a"></div>
+          <div class="color" style="background:#b8c69c"></div>
+          <div class="color" style="background:#d1c8b5"></div>
+          <div class="color" style="background:#e6e3da"></div>
+        </section>
+    </section>
 
-	    </div>
-	</section>
 	    <!--structrue code-->
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
