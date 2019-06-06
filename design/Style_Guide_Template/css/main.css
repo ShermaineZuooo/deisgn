@@ -23,13 +23,19 @@ section h3 {
 }
 
 section p {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 section code {
   background-color: #EEE;
   
 }
+
+.flex-nav{
+	display: flex;
+}
+
+
 
 
 /* 
