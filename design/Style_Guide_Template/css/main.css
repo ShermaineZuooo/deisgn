@@ -636,35 +636,8 @@ nav#menu {
 	padding-bottom:8em;
 
 }
-/* image button*/
-.container .btn {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.container .btn:hover {
-  background-color: black;
-} 
 
 
-
-
-
-
-
-
-
-}
 
 .centered {
   position: absolute;
