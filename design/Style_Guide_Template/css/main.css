@@ -152,6 +152,7 @@ section code {
 */
 /* Styling for heading one */
 .heading-one{
+	color:#0d2d42;
 	font-size:4rem;
 	font-family: 'Anton', sans-serif;
 	letter-spacing:0.1rem;
@@ -458,12 +459,14 @@ section code {
 */
 /* Styling for heading one */
 .heading-one{
+	color: #3a4660;
 	font-size:4rem;
 	font-family: 'Anton', sans-serif;
 }
 
 /* Styling for heading two */
 .heading-two{
+	color: #3a4660;
 	font-size:2rem;
 	font-family: 'Abril Fatface', cursive;
 }
