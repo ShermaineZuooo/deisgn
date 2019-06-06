@@ -654,6 +654,12 @@ nav#menu {
 .container .btn:hover {
   background-color: black;
 } 
+.color {
+	height:280px;
+	padding:0;
+	width:20%;
+	display:inline-block;
+}
 
 
 
