@@ -200,6 +200,7 @@ section code {
 	border:1px solid #555;
 	margin:1em;
 	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .product-item div{
