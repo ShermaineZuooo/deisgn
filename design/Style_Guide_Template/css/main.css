@@ -175,6 +175,9 @@ section code {
 /* Styling for heading paragraphs */
 .Paragraphs{
 	font-family: 'Lato', sans-serif;
+	max-width: 40%;
+	color:#555;
+	letter-spacing: 0.1rem;
 }
 
 .bullet-lst-no-link{
@@ -196,9 +199,22 @@ section code {
 	font-weight:bold;
 	padding:0.2em;
 }
+.number-lists{
+	font-family: 'Lato', sans-serif;
+	color:#CBCC8F;
+}
+.number-lists a{
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color:#CBCC8F;
+  transition: color 0.4s ease-out;
 
+}
+.number-lists a:hover, .number_list a:focus{
+  text-decoration: underline;
+  color:grey;
 
-
+}
 
 
 /* 
@@ -459,6 +475,9 @@ section code {
 /* Styling for heading paragraphs */
 .Paragraphs{
 	font-family: 'Lato', sans-serif;
+	max-width: 40%;
+	letter-spacing: 0.3rem;
+	color:#3a4660;
 }
 
 .bullet-lst-no-link{
@@ -481,7 +500,11 @@ section code {
 	padding:0.2em;
 }
 
-
+.numbered-lists{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color:#66f;
+}
 
 
 
