@@ -111,7 +111,7 @@ section code {
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
+	text-shadow:0px -1px 0px #17c47f;
 }
 .button-submit:hover, .button-reset:hover {
 	background:linear-gradient(to bottom, #486B4B 5%, #486B4B 100%);
