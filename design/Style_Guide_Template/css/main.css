@@ -183,6 +183,8 @@ section code {
 .bullet-lst-no-link{
 	font-family: 'Lato', sans-serif;
 	list-style-type:circle;
+	color:#486B4B;
+	opacity: 80%;
 }
 
 .bullet-lst-with-link a{
@@ -483,6 +485,8 @@ section code {
 .bullet-lst-no-link{
 	font-family: 'Lato', sans-serif;
 	list-style-type:circle;
+	color:#486B4B;
+	opacity: 70%；
 }
 
 .bullet-lst-with-link a{
