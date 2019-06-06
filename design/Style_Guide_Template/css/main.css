@@ -33,6 +33,8 @@ section code {
 
 .flex-nav{
 	display: flex;
+	justify-content: center;
+	color:red;
 }
 
 
