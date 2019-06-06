@@ -46,7 +46,7 @@ section code {
   border-radius: 0.25em;
   text-decoration: none;
   /*-webkit-transition: background-color 0.5s ease-out;*/
-  transition: background-color 0.5s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -83,7 +83,7 @@ section code {
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
+	text-shadow:0px -1px 0px#17c47f;
 }
 .button-submit:hover {
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
