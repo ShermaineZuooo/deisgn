@@ -226,13 +226,14 @@ section code {
 */
 
 .product-container{
-	display:inline-block;
+	display:flex;
 }
 
 .product-item{
 	margin:auto;
 	text-align:center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	display:inline-block;
 }
 
 .product-item div{
