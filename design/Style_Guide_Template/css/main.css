@@ -10,6 +10,7 @@ body {
   font-family: sans-serif;
   left:0px;
   padding: 2rem;
+	color: #3a4660;
 }
 
 section:not([id]) {
@@ -153,6 +154,8 @@ section code {
 .heading-one{
 	font-size:4rem;
 	font-family: 'Anton', sans-serif;
+	letter-spacing:0.1rem;
+
 }
 
 /* Styling for heading two */
