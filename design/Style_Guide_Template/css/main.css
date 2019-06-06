@@ -38,18 +38,26 @@ section code {
 */
 
 /* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5em 1em;
-  color: #FFF;
-  background-color: #6DA888;
-  border-radius: 0.25em;
-  text-decoration: none;
-  /*-webkit-transition: background-color 0.5s ease-out;*/
-  transition: background-color 0.5s ease-out;
+nav {
+  width: 100%;
+  height:auto;
+  background: white;
+
 }
 
-.button-nav:hover, .button-nav:focus {
+nav li {
+  display: inline-block;
+  padding: 24px 10px;
+
+}
+
+nav li a {
+  font-size: 15px;
+  color: #757575;
+  text-transform: uppercase;
+}
+
+nav:hover, nav:focus {
   background-color: #999;
 }
 
