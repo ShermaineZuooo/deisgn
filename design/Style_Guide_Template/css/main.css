@@ -161,6 +161,7 @@ section code {
 
 /* Styling for heading two */
 .heading-two{
+	color:#0d2d42;
 	font-size:2rem;
 	font-family: 'Abril Fatface', cursive;
 }
